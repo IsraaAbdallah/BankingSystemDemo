@@ -6,7 +6,7 @@ public class DepositTransaction extends Transaction{
     @Override
     void performTransaction(BankAccount bankAccount) {
         super.performTransaction(bankAccount);
-        bankAccount.withdraw(amount);
+        bankAccount.deposit(amount);
 
     }
 }
